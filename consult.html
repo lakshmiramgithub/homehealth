@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Card Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #7398a3;
+    }
+    
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .card {
+      max-width: 300px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    
+    .card img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .card-content {
+      padding: 20px;
+    }
+    
+    .card-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    .card-description {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 20px;
+    }
+    
+    .card-link {
+      display: block;
+      text-align: center;
+      background-color: #4CAF50;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px;
+      border-radius: 4px;
+    }
+    
+    .card-link:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="card-container">
+    <div class="card">
+      <img src="https://th.bing.com/th/id/R.8b7587097b178ce5e5c72f42b2260277?rik=fIrknUmq160wSw&riu=http%3a%2f%2fpaphosmedical.com%2fwp-content%2fuploads%2f2019%2f03%2fAdobeStock_84442482_1000.jpg&ehk=7iRWTfKcJlulgzEfJYaqr6hVMTBIhPd%2fBed4MMucUb8%3d&risl=&pid=ImgRaw&r=0" alt="Image 1">
+      <div class="card-content">
+        <h1 class="card-title">Home Consultation</h1>
+        
+        <a href="homecon.html" class="card-link">Book</a>
+      </div>
+    </div>
+    
+
+      <div class="card">
+        <img src="https://www.patientpop.com/wp-content/uploads/OnlineSched_Feature-e1511898212364-920x518.jpg" alt="Image 2">
+        <div class="card-content">
+          <h1 class="card-title">Book appointment</h1>
+          <a href="#" class="card-link">book</a>
+        </div>
+      </div>
+    
+    <div class="card">
+      <img src="https://motionarray.imgix.net/preview-754045-Cco1Bf1LGlM9SFru-large.jpg?w=3840&q=60&fit=max&auto=format" alt="Image 3">
+      <div class="card-content">
+        <h3 class="card-title">online consultation</h3>
+        <a href="#" class="card-link">book</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

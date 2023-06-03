@@ -1,0 +1,77 @@
+/* Reset some default styles for consistency */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    
+    
+        background-image: url("https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/HGATaVJubj6casdeu/videoblocks-female-doctor-using-medical-mask-on-the-city-animation-4k-video-animated_sfx6qistau_thumbnail-1080_01.png");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-color: rgba(0, 0, 0, 0.5); /* Adjust the transparency by modifying the alpha value (0.5 in this example) */
+      }
+      
+  
+  
+  /* Set global styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+  form{
+    align-items: center;
+    margin-right: 500px;
+    margin-left: 500px;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+ 
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 50px;
+  }
+  
+  h1, h2 {
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  form input,
+  form textarea,
+  form button {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
